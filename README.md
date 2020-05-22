@@ -16,4 +16,4 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launche
+Launches the test runner in the interactive watch 
