@@ -31,4 +31,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm eject`
 
-**Note: this
+**Note: this is a one-way operation. Once you `eject`, you can’t g
