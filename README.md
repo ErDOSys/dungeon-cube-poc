@@ -51,4 +51,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/co
 
 ### Analyzing the Bundle Size
 
-This section has moved here: http
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bu
