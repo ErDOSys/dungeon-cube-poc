@@ -4,4 +4,5 @@
   "homepage": "https://ozzmanmuhammad.github.io/ObjectDetection-Page",
   "private": true,
   "dependencies": {
-    "@t
+    "@tensorflow-models/coco-ssd": "^2.1.0",
+    "@tensorflow
