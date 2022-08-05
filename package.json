@@ -1,4 +1,7 @@
 {
   "name": "ObjectDetection",
   "version": "0.1.0",
-  "homepage": "https://ozzmanmuhammad.github.io/ObjectDete
+  "homepage": "https://ozzmanmuhammad.github.io/ObjectDetection-Page",
+  "private": true,
+  "dependencies": {
+    "@t
