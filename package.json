@@ -19,4 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "test": "reac
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "e
