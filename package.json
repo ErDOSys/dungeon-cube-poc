@@ -16,4 +16,5 @@
     "react-webcam": "^5.2.0"
   },
   "scripts": {
-    "start"
+    "start": "react-scripts start",
+    "build": "react-scri
