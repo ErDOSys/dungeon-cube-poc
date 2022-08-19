@@ -17,4 +17,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scri
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "reac
