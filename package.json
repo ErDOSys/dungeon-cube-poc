@@ -22,4 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "e
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browse
