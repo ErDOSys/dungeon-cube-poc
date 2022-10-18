@@ -58,3 +58,52 @@ function App() {
 
 
   useEffect(()=>{runCoco()},[]);
+
+  return (
+    <div className="App">
+      <h1 style={{margin:0,paddingTop: '2%', backgroundColor:"#282c34", color:"white"}}>OBJECT DETECTION</h1>
+      <button onClick={toggle} className="button">WEBCAM</button>
+      
+        <div className="App-header">
+        {Toggle && (
+          <>
+            <Webcam
+              ref={webcamRef}
+              muted={true} 
+              style={{
+                position: "absolute",
+                marginTop: "0",
+                marginLeft: "auto",
+                marginRight: "auto",
+                left: 0,
+                right: 0,
+                textAlign: "center",
+                zindex: 9,
+                width: 640,
+                height: 480,
+              }}
+            />
+
+            <canvas
+              ref={canvasRef}
+              style={{
+                position: "absolute",
+                marginLeft: "auto",
+                marginRight: "auto",
+                left: 0,
+                right: 0,
+                textAlign: "center",
+                zindex: 8,
+                width: 640,
+                height: 480,
+              }}
+            />
+          </>
+        )}
+        </div>
+      
+    </div>
+  );
+}
+
+export default App;
