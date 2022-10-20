@@ -12,3 +12,11 @@ export const drawRect = (detections, ctx) =>{
       ctx.strokeStyle = '#' + color
       ctx.font = '18px Arial';
   
+      // Draw rectangles and text
+      ctx.beginPath();   
+      ctx.fillStyle = '#' + color
+      ctx.fillText(text, x, y);
+      ctx.rect(x, y, width, height); 
+      ctx.stroke();
+    });
+  }
